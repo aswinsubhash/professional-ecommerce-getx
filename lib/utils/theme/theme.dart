@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../constants/colors.dart';
 import 'custom_themes/appbar_theme.dart';
 import 'custom_themes/bottom_sheet_theme.dart';
 import 'custom_themes/checkbox_theme.dart';
@@ -17,10 +18,10 @@ class AppTheme {
     useMaterial3: true,
     fontFamily: 'Poppins',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: AppColors.primary,
     textTheme: AppTextTheme.lightTextTheme,
     chipTheme: AppChipTheme.lightChipTheme,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: AppColors.white,
     appBarTheme: AppAppBarTheme.lightAppBarTheme,
     checkboxTheme: AppCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: AppBottomSheetTheme.lightBottomSheetTheme,
@@ -34,10 +35,10 @@ class AppTheme {
     useMaterial3: true,
     fontFamily: 'Poppins',
     brightness: Brightness.dark,
-    primaryColor: Colors.blue,
+    primaryColor: AppColors.primary,
     textTheme: AppTextTheme.darkTextTheme,
     chipTheme: AppChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: AppColors.black,
     appBarTheme: AppAppBarTheme.darkAppBarTheme,
     checkboxTheme: AppCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: AppBottomSheetTheme.darkBottomSheetTheme,

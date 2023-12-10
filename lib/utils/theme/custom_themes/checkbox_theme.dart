@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/colors.dart';
+
 class AppCheckboxTheme {
   AppCheckboxTheme._();
 
@@ -7,14 +9,14 @@ class AppCheckboxTheme {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: MaterialStateProperty.resolveWith((states) {
       if(states.contains(MaterialState.selected)){
-        return Colors.white;
+        return AppColors.white;
       }else{
-        return Colors.black;
+        return AppColors.black;
       }
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if(states.contains(MaterialState.selected)){
-        return Colors.blue;
+        return AppColors.primary;
       }else{
         return Colors.transparent;
       }
@@ -26,14 +28,14 @@ class AppCheckboxTheme {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: MaterialStateProperty.resolveWith((states) {
       if(states.contains(MaterialState.selected)){
-        return Colors.white;
+        return AppColors.white;
       }else{
-        return Colors.black;
+        return AppColors.black;
       }
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if(states.contains(MaterialState.selected)){
-        return Colors.blue;
+        return AppColors.primary;
       }else{
         return Colors.transparent;
       }
