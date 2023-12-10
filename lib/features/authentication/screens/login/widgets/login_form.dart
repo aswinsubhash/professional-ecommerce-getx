@@ -1,4 +1,6 @@
+import 'package:ecom/features/authentication/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/sizes.dart';
@@ -13,8 +15,8 @@ class LoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Form(
       child: Padding(
-        padding: const EdgeInsets.symmetric(
-            vertical: AppSizes.spaceBtwSections),
+        padding:
+            const EdgeInsets.symmetric(vertical: AppSizes.spaceBtwSections),
         child: Column(
           children: [
             /// Email
@@ -34,7 +36,7 @@ class LoginForm extends StatelessWidget {
               ),
             ),
             const SizedBox(height: AppSizes.spaceBtwInputFields / 2),
-    
+
             /// Remember  Me & Forget Password
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -42,11 +44,15 @@ class LoginForm extends StatelessWidget {
                 /// Remember Me
                 Row(
                   children: [
-                    Checkbox(value: true, onChanged: (value) {}),
+                    SizedBox(
+                      width: 24,
+                      height: 24,
+                      child: Checkbox(value: true, onChanged: (value) {}),
+                    ),
                     const Text(AppTexts.rememberMe),
                   ],
                 ),
-    
+
                 /// Forget Password
                 TextButton(
                   onPressed: () {},
@@ -55,7 +61,7 @@ class LoginForm extends StatelessWidget {
               ],
             ),
             const SizedBox(height: AppSizes.spaceBtwSections),
-    
+
             /// Sign In Button
             SizedBox(
               width: double.infinity,
@@ -65,12 +71,12 @@ class LoginForm extends StatelessWidget {
               ),
             ),
             const SizedBox(height: AppSizes.spaceBtwItems),
-    
+
             /// Create Account Button
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(const SignupScreen()),
                 child: const Text(AppTexts.createAccount),
               ),
             ),

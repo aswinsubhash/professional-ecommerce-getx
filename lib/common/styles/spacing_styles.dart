@@ -9,4 +9,9 @@ class AppSpacingStyles {
     bottom: AppSizes.defaultSpace,
     right: AppSizes.defaultSpace,
   );
+  static const EdgeInsetsGeometry paddingWithoutAppBarHeight = EdgeInsets.only(
+    left: AppSizes.defaultSpace,
+    bottom: AppSizes.defaultSpace,
+    right: AppSizes.defaultSpace,
+  );
 }
