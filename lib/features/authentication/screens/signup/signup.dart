@@ -13,8 +13,6 @@ class SignupScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
@@ -45,4 +43,3 @@ class SignupScreen extends StatelessWidget {
     );
   }
 }
-
