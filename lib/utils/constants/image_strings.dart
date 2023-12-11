@@ -16,7 +16,12 @@ class AppImages {
   static const String onBoardingImage3 = 'assets/images/on_boarding_images/sammy-line-delivery.gif';
 
   // -- Animations
-  static const String verifyEmail = '';
-  static const String deliveredEmail = '';
-  
+  static const String productsIllustration = '';
+  static const String productsSaleIllustration = '';
+  static const String deliveredEmailIllustration = 'assets/images/animations/network-open-letter-with-text.gif';
+  static const String staticSuccessIllustration = 'assets/images/animations/sammy-line-success.png';
+  static const String deliveredInPlaneIllustration = '';
+  static const String verfiyIllustration = '';
+
+
 }

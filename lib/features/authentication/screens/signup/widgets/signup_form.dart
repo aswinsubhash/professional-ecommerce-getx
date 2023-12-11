@@ -89,7 +89,7 @@ class AppSignupForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () => Get.to(const VerifyEmailScreen()),
+              onPressed: () => Get.to(()=> const VerifyEmailScreen()),
               child: const Text(AppTexts.createAccount),
             ),
           )
