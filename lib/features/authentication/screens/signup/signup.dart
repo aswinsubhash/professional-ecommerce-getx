@@ -1,6 +1,6 @@
-import 'package:ecom/common/styles/spacing_styles.dart';
-import 'package:ecom/common/widgets/login_signup/form_divider.dart';
-import 'package:ecom/common/widgets/login_signup/social_button.dart';
+import '../../../../common/styles/spacing_styles.dart';
+import '../../../../common/widgets/login_signup/form_divider.dart';
+import '../../../../common/widgets/login_signup/social_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

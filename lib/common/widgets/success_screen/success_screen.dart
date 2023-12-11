@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:ecom/common/styles/spacing_styles.dart';
-import 'package:ecom/utils/constants/sizes.dart';
-import 'package:ecom/utils/helpers/helper_functions.dart';
+import '../../styles/spacing_styles.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/helper_functions.dart';
 
 import '../../../utils/constants/text_strings.dart';
 
