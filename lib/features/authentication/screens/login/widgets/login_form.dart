@@ -1,3 +1,4 @@
+import 'package:ecom/features/authentication/screens/password_configuration.dart/forget_password.dart';
 import 'package:ecom/features/authentication/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -55,7 +56,7 @@ class LoginForm extends StatelessWidget {
 
                 /// Forget Password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: const Text(AppTexts.forgetPassword),
                 )
               ],
@@ -76,7 +77,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () => Get.to(()=> const SignupScreen()),
+                onPressed: () => Get.to(() => const SignupScreen()),
                 child: const Text(AppTexts.createAccount),
               ),
             ),

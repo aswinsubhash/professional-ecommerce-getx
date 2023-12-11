@@ -7,6 +7,7 @@ class AppTexts {
   static const String submit = "Submit";
   static const String appName = "E-com";
   static const String appContinue = "Continue";
+  static const String done = "Done";
 
   // -- OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
