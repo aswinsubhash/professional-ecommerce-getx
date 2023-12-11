@@ -1,4 +1,4 @@
-import 'package:ecom/features/authentication/screens/password_configuration.dart/forget_password.dart';
+import 'package:ecom/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:ecom/features/authentication/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
