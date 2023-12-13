@@ -1,10 +1,10 @@
-import '../verify_email.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
+import '../verify_email.dart';
 import 'term_conditions_checkbox.dart';
 
 class AppSignupForm extends StatelessWidget {

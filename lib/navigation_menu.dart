@@ -1,9 +1,10 @@
-import 'package:ecom/features/shop/screens/home/home.dart';
-import 'package:ecom/utils/constants/colors.dart';
-import 'package:ecom/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+import 'features/shop/screens/home/home.dart';
+import 'utils/constants/colors.dart';
+import 'utils/helpers/helper_functions.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
