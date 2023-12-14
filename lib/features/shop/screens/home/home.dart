@@ -15,7 +15,10 @@ class HomeScreen extends StatelessWidget {
             AppPrimaryHeaderContainer(
               child: Column(
                 children: [
+                  /// -- AppBar
                   HomeAppBar(),
+                  /// -- Searchbar
+                  ///  -- Categories
                 ],
               ),
             ),
