@@ -21,7 +21,19 @@ class AppImages {
   static const String deliveredEmailIllustration = 'assets/images/animations/network-open-letter-with-text.gif';
   static const String staticSuccessIllustration = 'assets/images/animations/sammy-line-success.png';
   static const String deliveredInPlaneIllustration = '';
-  static const String verfiyIllustration = '';
+  static const String verifyIllustration = '';
+
+  // -- Category Icons
+  static const String sportIcon = "assets/icons/categories/icons8-soccer-ball-48.png";
+  static const String clothIcon = "assets/icons/categories/icons8-tshirt-48.png";
+  static const String shoeIcon = "assets/icons/categories/icons8-sneakers-64.png";
+  static const String cosmeticIcon = "assets/icons/categories/icons8-cosmetics-50.png";
+  static const String animalIcon = "assets/icons/categories/icons8-dog-heart-64.png";
+  static const String toyIcon = "assets/icons/categories/icons8-toy-car-50.png";
+  static const String furnitureIcon = "assets/icons/categories/icons8-dining-chair-64.png";
+  static const String jeweleryIcon = "assets/icons/categories/icons8-sparkling-diamond-50.png";
+  static const String electronicsIcon = "assets/icons/categories/icons8-smartphone-50.png";
+  static const String womenCostumeIcon = "assets/icons/categories/icons8-tailors-dummy-64.png";
 
 
 }
