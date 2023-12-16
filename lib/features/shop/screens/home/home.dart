@@ -6,8 +6,8 @@ import '../../../../common/widgets/custom_shapes/containers/primary_header_conta
 import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
 import '../../../../utils/constants/sizes.dart';
-import 'package:ecom/utils/constants/text_strings.dart';
-import 'package:ecom/utils/constants/colors.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../../utils/constants/colors.dart';
 import 'widgets/home_appbar.dart';
 import 'widgets/home_categories.dart';
 
